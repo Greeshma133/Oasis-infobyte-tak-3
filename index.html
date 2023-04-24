@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Temperature Conversion between celsius farhenheit and kelvin scale</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <center><h1>Temperature Conversion between Celsius farhenheit and kelvin scale</h1></center>
+
+   
+
+    <div class="container">
+
+        <div class="input_box">
+
+            <label for="celsius">Celsius Scale</label>
+
+            <input type="number" id="celsius" oninput="celToFar()" placeholder="value">
+
+        </div>
+
+        <div class="input_box">
+
+            <label for="fahrenheit">Fahrenheit Scale</label>
+
+            <input type="number" id="fahrenheit" oninput="farToCel()" placeholder="value">
+
+        </div>
+
+        <div class="input_box">
+
+            <label for="Kelvin">kelvin Scale</label>
+
+            <input type="number" id="kelvin" oninput="celTokel()" placeholder="value">
+
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
